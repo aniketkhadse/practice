@@ -7,7 +7,10 @@ function NavBar() {
       <div className="bg-gray-200 flex justify-between  ">
         <div className="logo">logo</div>
         <div className="right flex gap-2 px-1.5">
-          <div className="home">home</div>
+          <div className="home">
+            home <input type="text " placeholder="aniket..." />
+          </div>
+
           <div className="about">about</div>
           <div className="contact">contact</div>
         </div>
